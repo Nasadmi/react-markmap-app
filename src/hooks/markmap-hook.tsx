@@ -69,7 +69,7 @@ export function useMarkmaps({ initVal }: { initVal: string | undefined }) {
   }, [refMm.current, value]);
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleChange = (val: string, viewUpdate: ViewUpdate) => {
+  const handleChange = (val: string, _viewUpdate: ViewUpdate) => {
     changeDebounced(val);
   };
 
